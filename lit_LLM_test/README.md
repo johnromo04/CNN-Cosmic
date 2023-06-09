@@ -1,6 +1,7 @@
 # GPT LLM PDF TEST
 
-We will be testing how LLMs from Openai perform on scientific docs.
+We will be testing how LLMs from Openai perform on scientific docs. Found on youtube:
+https://www.youtube.com/watch?v=u8vQyTzNGVY
 
 ## Table of Contents
 
@@ -8,7 +9,7 @@ We will be testing how LLMs from Openai perform on scientific docs.
 - [Usage](#usage)
 - [OpenAI API Keys](#openai-api-keys)
 - [Running the Application](#running-the-application)
-
+- [License](#license)
 
 ## Installation
 
@@ -27,7 +28,8 @@ You can install these packages using `pip`:
 Virtual Enviornment may be needed. Anaconda, Miniconda, etc.
 
 ```shell
-pip install langchain openai streamlit tiktoken chromadb pypdf pycryptodome
+pip install langchain openai streamlit tiktoken chromadb pypdf pycryptodome 
+```
 
 ## Usage
 
@@ -71,11 +73,13 @@ You can run the application via the command line using the following command:
 
 ```shell
 streamlit run LLM.py
-
+```
 Ensure you are in the project's root directory before executing the command. This will launch the application and make it accessible through your web browser.
 
 
+## License
 
+This project is licensed under the [MIT License](LICENSE).
 
 
 
